@@ -1,0 +1,92 @@
+.head{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-style: bold;
+}
+
+.topbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 50px;
+    padding: 2px;
+    text-align: center;
+}
+
+.menubutt{
+    color: black;
+    border: 3px light black;
+    background-color: transparent;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-right: 70%;
+    padding: 3px;
+}
+
+.userbutt{
+    color: black;
+    border: 3px light black;
+    background-color: transparent;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 50%;
+    padding: 3px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-style: bold;
+    color: red;
+}
+
+.orddiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+b{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.det{
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 3px solid black;
+    width : 400px
+}
+
+.inpel{
+    size: 30px;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+.drop{
+    width: 250px;
+}
+
+.ordbutt{
+    color: black;
+    border: 3px light black;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 80px;
+    width: 250px;
+}
+
+.maindiv{
+    background-image: url('../images/logo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
